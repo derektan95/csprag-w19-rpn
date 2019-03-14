@@ -20,9 +20,9 @@ class TestBasics(unittest.TestCase):        #class definition using unit test fr
         result = rpn.calculate(2, 3, '+')     # no need to define 'result'?
         self.assertEqual(5,result)          # check if 0 == result
 
- #   def test_minus(self):                     # test 1
- #       result = rpn.calculate("ans 7 +")     # no need to define 'result'?
- #       self.assertEqual(12,result)          # check if 0 == result
+    def test_exponentiation(self):                     # test 1
+        result = rpn.calculate(2, 7, '^')     # no need to define 'result'?
+        self.assertEqual(14,result)          # check if 0 == result
 
 
 
