@@ -22,7 +22,7 @@ class TestBasics(unittest.TestCase):        #class definition using unit test fr
 
     def test_exponentiation(self):                     # test 1
         result = rpn.calculate(2, 7, '^')     # no need to define 'result'?
-        self.assertEqual(14,result)          # check if 0 == result
+        self.assertEqual(49,result)          # check if 0 == result
 
 
 

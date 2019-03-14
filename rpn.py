@@ -44,6 +44,9 @@ def calculate(arg1, arg2, operator):      #':' with indentation means block
         my_stack.push(first_num - sec_num)
 #        print ("minus sign called")
         return first_num - sec_num
+    elif operator == '^':
+        my_stack.push(first_num ** sec_num)
+        return first_num ** sec_num
 
 #          function = operators[token]
 #            arg2 = my_stack.pop()
